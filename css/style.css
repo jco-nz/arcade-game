@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background-color: #fccb8f;
+}
+
+.container {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.canvas-container {
+  margin-top: -2rem;
+}
+
+.player-profile {
+  font-size: 1.3rem;
+}
+
+.player-life {
+  color: green;
+  margin-left: 1rem;
+}
+
+.restart {
+  float: right;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: orange;
+  font-weight: 100;
+}
